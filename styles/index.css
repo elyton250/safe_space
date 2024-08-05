@@ -5,7 +5,15 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
-  color: white;
+}
+
+#about {
+  background-color: #ae9754;;
+  color: #000;
+  border-radius: 20px;
+}
+section {
+  color: #ae9754;
 }
 
 html {
@@ -13,7 +21,7 @@ html {
 }
 
 body {
-  background: linear-gradient(to right, #113573 , #6F2726);
+  background-color: #fff;
 }
 /* TODO: put in a gradient color*/
 header {
@@ -24,7 +32,7 @@ header {
   width: 100%;
   display: flex;
   justify-content: center;
-  background: linear-gradient(to right, #113573 , #6F2726);
+  background-color: #fff;
   height: 100px;
   /* background-image:url(../images/header.jpg); */
 }
@@ -54,11 +62,18 @@ header {
 .navbar .all-links li {
   position: relative;
   list-style: none;
+  color:#000;
 }
 /* .navbar .logo {
   height:fit-content;
   width:fit-content;
 } */
+
+.logo {
+  /* border: red solid 1px; */
+  height: 100px;
+  width: auto;
+}
 
 .navbar .logo a {
   display: flex;
@@ -76,14 +91,14 @@ header {
 header a, footer a {
   margin-left: 40px;
   text-decoration: none;
-  color: #fff;
+  color: black;
   height: 100%;
   padding: 20px 0;
   display: inline-block;
 }
 
 header a:hover, footer a:hover {
-  color: #ddd;
+  color: black;
 }
 
 .homepage {
@@ -196,7 +211,7 @@ section.about {
 }
 
 section .cards .card {
-  background: #113573;
+  background: black;
   padding: 40px 15px;
   list-style: none;
   border-radius: 5px;
